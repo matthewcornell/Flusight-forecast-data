@@ -19,7 +19,7 @@ jobs:
       uses: actions/checkout@v2
       with:
         repository: 'reichlab/covid19-forecast-hub-validations'
-        ref: 'issue_58'
+        ref: 'config'
         path: 'covid19-forecast-hub-validations'
 
     - name: Setup Python
